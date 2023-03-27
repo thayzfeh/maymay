@@ -1,0 +1,84 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gochi+Hand&display=swap');
+@keyframes sub {
+    0% {opacity: 0.5;}
+    50%{opacity: 1;}
+    100%{opacity: 0.5;}
+}
+body {
+    margin: 0px;
+    }
+.container {
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(180deg, #42378C, #2E3D59);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    }
+.box {
+    width: 70%;
+    background: #ffffffdc;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 3px 3px 6px #00000050;
+    }
+h1{
+    font-family: 'Gochi Hand', cursive;
+    font-size: 3em;
+    margin: 10px
+}
+p.sub{
+    font-family: 'Patrick Hand', cursive;
+    color: rgb(70, 69, 69);
+    margin: 10px;
+    -webkit-animation: sub 3s linear infinite;
+   -moz-animation: sub 3s linear infinite;
+   -ms-animation: sub 3s linear infinite;
+   -o-animation: sub 3s linear infinite;
+   animation: sub 3s linear infinite;
+}
+img{
+    width: 20%;
+}
+ul{
+    list-style: none;
+    padding: 0px;
+}
+li{
+    display: inline;
+}
+button{
+    font-size: 1.2em;
+    font-family: 'Patrick Hand', cursive;
+    margin: 0px 6px;
+    width: 80px;
+    height: 40px;
+    border: none;
+    color: white;
+    box-shadow: 3px 3px 6px #00000050;
+    border-radius: 5px;
+}
+.buttonText{
+    margin: 0px;
+    cursor: pointer;
+}
+.buttonText:hover{
+    color: rgb(182, 182, 182);
+}
+.cor1{
+    background-color: #141A26;
+
+}
+.cor2{
+    background-color: #4c428a;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color: rgb(182, 182, 182);
+}
